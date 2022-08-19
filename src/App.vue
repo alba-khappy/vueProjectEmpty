@@ -20,46 +20,11 @@ export default {
   name: 'App',
   components: {
     HeaderComponent,
-    ProductItem,
-    FooterComponent
+    ProductItem
 },
    data (){
         return {
-            
-            productList: [
-                {
-                    img: "book1.jpg",
-                    content: "Отечественная бонистика",
-                },
-                {
-                    img: "book2.jpeg",
-                    content: "Позитивные изменения №2-2022",
-                },
-                {
-                    img: "book1.jpg",
-                    content: "Вестник ЮНЕСКО №48",
-                },
-                {
-                    img: "book2.jpeg",
-                    content: "Аукцион №32 «Коллекционные монеты и медали»",
-                },
-                {
-                    img: "book1.jpg",
-                    content: "Отечественная бонистика",
-                },
-                {
-                    img: "book2.jpeg",
-                    content: "Позитивные изменения №2-2022",
-                },
-                {
-                    img: "book1.jpg",
-                    content: "Вестник ЮНЕСКО №48",
-                },
-                {
-                    img: "book2.jpeg",
-                    content: "Аукцион №32 «Коллекционные монеты и медали»",
-                },
-                ]}
+            }
             },
 }
 </script>

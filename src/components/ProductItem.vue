@@ -1,7 +1,7 @@
 <template lang='pug'>
 li.product__item
     a(href="/").product__link
-        img(:src="require(`../assets/${img}`)").product__img
+        //- img(:src="require(`../assets/${img}`)").product__img
         p.product__content {{content}}
 </template>
 
